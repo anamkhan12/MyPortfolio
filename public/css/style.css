@@ -795,5 +795,14 @@ footer .copyright {
     padding: 5px;
 }
 
+section.services .section-heading+p {
+    margin-bottom: 2.5rem;
+}
 
+section.services h2 {
+    padding-bottom: 1.5rem;
+}
+
+.soft-skills-p {
+    padding-top: 2rem;
 }

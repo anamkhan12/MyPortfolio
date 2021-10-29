@@ -55,9 +55,10 @@
                     </div>
                     <div class="right">
                         <h4>Anam Khan</h4>
-                        <h1>I'm a Software <span> Engineer</span></h1>
-                        <p>Experienced software engineer with a strong background in developing award-winning strategies for a diverse clientele.</p>
+                        <h1>I'm a Software <span> Developer</span></h1>
+                        <p>I design,develop and code beautifully simple things, and I love what I do.I am passionate about building excellent software that improves the lives of those around me.</p>
                         <div>
+                        <!-- I want to make things that make a difference.  -->
                             <!--<button class="btn btn-secondary resumebtn" href="{{url('download/mycv')}}">Download Resume</button> -->
                             <a class="btn btn-secondary btn-a-tag" id="resumebtn" href="{{url('download/mycv')}}">Download Resume</a>
                         </div>
@@ -74,8 +75,8 @@
                 <div class="flex-1 txt-right">
                     <h1>About <span>Me</span></h1>
                     <h3>Hello World , I am Anam Khan</h3>
-                    <p> My name is Drew Rawitz, I’m a Senior Frontend Developer currently working remotely out of Albuquerque, New Mexico! I've spent the last 8 years as a professional web developer where I specialize in transforming beautiful designs into
-                        full-fledged interactive web applications for various clients all around the world.<br><br>My job involves doing what I love, developing new websites and applications. </p>
+                    <p> I’m a Senior Frontend Developer currently working remotely out of Kolkata, WestBengal.! I've spent the last 8 years as a professional web developer where I specialize in transforming beautiful designs into
+                        full-fledged interactive web applications for various clients all around the world.<br><br>My job involves doing what I love, developing new websites and  applications. </p>
                     <div class="social">
                         <a href="https://www.linkedin.com/in/anam-khan-a13588178/" target=_blank><img src="images/linkedin.png" alt=""></a>
                         <a href="http://in.youtube.com/" target=_blank><img src="images/youtube.png" alt=""></a>
@@ -89,23 +90,23 @@
         <section id="service" class="services">
             <div class="container">
                 <h1 class="section-heading">My <span>Skillset</span></h1>
-                <p>dhgefbjnkod8hf7gyvunijdhuhgftdwvgchbuhdgyfdhbjcbhjwdhucgydhbj wdugcyvu</p>
+                <!-- <p>dhgefbjnkod8hf7gyvunijdhuhgftdwvgchbuhdgyfdhbjcbhjwdhucgydhbj wdugcyvu</p> -->
                 <h2>Technical Skills:</h2>
                 <div class="card-wrapper">
                     <div class="non-card" >
                         <img class="skill-img ah" src="images/html-logo.svg" alt="">
                     </div>
-                    <div class="non-card" >
-                        <img class="skill-img" src="images/css-logo.svg" alt="">
+                    <div class="non-card">
+                        <img class="skill-img" src="images/jquery-logo.svg" alt="">
                     </div>
                     <div class="non-card">
-                        <img class="skill-img" src="images/python-logo.svg" alt="">
+                        <img class="skill-img" src="images/aws-logo.svg" alt="">
                     </div>
                     <div class="non-card">
                         <img class="skill-img" src="images/javascript-logo.svg" alt="">
                     </div>
                     <div class="non-card">
-                        <img class="skill-img" src="images/jquery-logo.svg" alt="">
+                        <img class="skill-img" src="images/git-logo.svg" alt="">
                     </div>
                     <div class="non-card">
                         <img class="skill-img" src="images/php-logo.svg" alt="">
@@ -114,18 +115,31 @@
                         <img class="skill-img" src="images/mysql-logo.svg" alt="">
                     </div>
                     <div class="non-card">
-                        <img class="skill-img" src="images/git-logo.svg" alt="">
-                    </div>
-                    <div class="non-card">
-                        <img class="skill-img" src="images/vue-logo.svg" alt="">
+                        <img class="skill-img" src="images/django-logo.svg" alt="">
                     </div>
                     <div class="non-card">
                         <img class="skill-img" src="images/codeigniter-logo.svg" alt="">
                     </div>
                     <div class="non-card">
+                        <img class="skill-img" src="images/restapi-logo.svg" alt="">
+                    </div>
+                    <div class="non-card">
+                        <img class="skill-img" src="images/python-logo.svg" alt="">
+                    </div>
+                    <div class="non-card">
+                        <img class="skill-img" src="images/sql-logo.svg" alt="">
+                    </div>
+                    <div class="non-card" >
+                        <img class="skill-img" src="images/css-logo.svg" alt="">
+                    </div>
+                    <div class="non-card">
+                        <img class="skill-img" src="images/vue-logo.svg" alt="">
+                    </div>
+                    <div class="non-card">
                         <img class="skill-img" src="images/laravel-logo.svg" alt="">
                     </div>
                 </div>
+                 <h2  class="soft-skills-p">Soft Skills:</h2><p >Critical Thinking, Effective Communication, Problem Solving</p>
                 <!-- <div class="card-wrapper">
                     <div class="non-card">
                         <img src="images/youtube.png" alt="">
@@ -199,9 +213,11 @@
             </div>
         </section> -->
         <section class="freelancer">
-            <h1>I am Available for Freelancing</h1>
+            <!-- <h1>I am Available for Freelancing</h1>
             <p>I can provide hight standard for business solution</p>
-            <p><a href="#contact" >Let's make something special.</a></p>
+            <p><a href="#contact" >Let's make something special.</a></p> -->
+            <h1>I occasionally take on freelance opportunities. </h1>
+            <p>Have an exciting project where you need some help? Send me over a mail, <a href="#contact" >and let's chat..</a></p>
             <button class="btn btn-primary"> <a href="{{url('download/mycv')}}" class="btn-a-tag">Download Resume</a></button>
             <!-- <a class="btn btn-secondary btn-a-tag" id="resumebtn" href="{{url('download/mycv')}}">Download Resume</a> -->
         </section>
@@ -237,7 +253,7 @@
         <section id="project" class="work">
             <div class="container">
                 <h1 class="section-heading">Our <span>Work</span></h1>
-                <p>A paragraph is a series of related sentences developing a central idea, called the topic.</p>
+                <p>Here are a few projects I've worked on recently.</p>
                 <div class="card-wrapper">
                     <div class="card">
                         <div class="overlay">
