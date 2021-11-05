@@ -277,7 +277,7 @@ section.freelancer {
     /* for transparency 0.7 if kept 1 can see the image behind  and url for url of image behind the transparent  color */
     background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../images/freelancer.png);
     color: var(--pure);
-    clip-path: polygon(0 0, 100% 0, 100% 100%, 72% 80%, 0 100%);
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 74% 85%, 0 100%);
     padding-bottom: 14rem;
 }
 
@@ -290,6 +290,15 @@ section.freelancer p {
     font-size: 1rem;
     margin-bottom: 0.5rem;
     font-family: 'Lato', sans-serif;
+}
+
+section.freelancer span {
+    color: var(--primary);
+    text-decoration-color: var(--light);
+}
+
+section.freelancer a {
+    color: var(--light);
 }
 
 section.reviews p {
@@ -471,7 +480,8 @@ section.blog .card-wrapper .card .card-content a.read-more {
 section.contact .card-wrapper {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    grid-gap: 3rem;
+    grid-gap: 1.5rem;
+    align-items: center;
 }
 
 section.contact .card-wrapper .card {
@@ -485,6 +495,10 @@ section.contact .card-wrapper .card img {
 section.contact .card-wrapper .card h1 {
     font-weight: 400;
     margin-bottom: 1.5rem;
+}
+
+section.contact p {
+    margin-bottom: 2rem;
 }
 
 section.contact .card-wrapper .card h6 {
@@ -559,12 +573,13 @@ section.contact button a {
 footer {
     background: var(--dark);
     text-align: center;
-    padding: 3rem 0;
+    padding: 1.5rem 0;
 }
 
 footer .footer-logo {
-    margin-bottom: 3rem;
-    width: 100px;
+    margin-bottom: 1.5rem;
+    width: 50px;
+    height: 50px;
 }
 
 footer .footer-socials a {
@@ -572,8 +587,16 @@ footer .footer-socials a {
 }
 
 footer .footer-socials {
-    margin-bottom: 3rem;
+    margin-bottom: 1rem;
     margin-right: -1rem;
+}
+
+footer .footer-socials img {
+    width: 40px;
+}
+
+footer .footer-socials img:hover {
+    background: var(--primary);
 }
 
 footer .copyright {

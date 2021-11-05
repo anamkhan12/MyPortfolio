@@ -76,7 +76,7 @@
                     <h1>About <span>Me</span></h1>
                     <h3>Hello World , I am Anam Khan</h3>
                     <p> I’m a Senior Frontend Developer currently working remotely out of Kolkata, WestBengal.! I've spent the last 8 years as a professional web developer where I specialize in transforming beautiful designs into
-                        full-fledged interactive web applications for various clients all around the world.<br><br>My job involves doing what I love, developing new websites and  applications. </p>
+                        full-fledged interactive web applications for various clients all around the world.<br><br>My job involves doing what I love, developing new websites and  web applications. </p>
                     <div class="social">
                         <a href="https://www.linkedin.com/in/anam-khan-a13588178/" target=_blank><img src="images/linkedin.png" alt=""></a>
                         <a href="http://in.youtube.com/" target=_blank><img src="images/youtube.png" alt=""></a>
@@ -140,38 +140,6 @@
                     </div>
                 </div>
                  <h2  class="soft-skills-p">Soft Skills:</h2><p >Critical Thinking, Effective Communication, Problem Solving</p>
-                <!-- <div class="card-wrapper">
-                    <div class="non-card">
-                        <img src="images/youtube.png" alt="">
-                        <h2>Graphic Design </h2>
-                        <p>uwndwujvijfjeiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiifvjiej eufjhiejfijeij jecike</p>
-                    </div>
-                    <div class="card">
-                        <img src="images/youtube.png" alt="">
-                        <h2>Graphic Design </h2>
-                        <p>uwndwujvijfjeiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiifvjiej eufjhiejfijeij jecike</p>
-                    </div>
-                    <div class="caurd">
-                        <img src="images/youtube.png" alt="">
-                        <h2>Graphic Design </h2>
-                        <p>uwndwujvijfjeiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiifvjiej eufjhiejfijeij jecike</p>
-                    </div>
-                    <div class="cajrd">
-                        <img src="images/youtube.png" alt="">
-                        <h2>Graphic Design </h2>
-                        <p>uwndwujvijfjeiii iiiiiiiiiiiiiiiiiiiiiiiiiiiifvjiej eufjhiejfijeij jecike</p>
-                    </div>
-                    <div class="cahud">
-                        <img src="images/youtube.png" alt="">
-                        <h2>Graphic Design </h2>
-                        <p>uwndwujvijfjeiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiifvjiej eufjhiejfijeij jecike</p>
-                    </div>
-                    <div class="cajud">
-                        <img src="images/youtube.png" alt="">
-                        <h2>Graphic Design </h2>
-                        <p>uwndwujvijfjeiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiifvjiej eufjhiejfijeij jecike</p>
-                    </div>
-                </div> -->
             </div>
         </section>
         <!-- <section id="service" class="services">
@@ -217,7 +185,7 @@
             <p>I can provide hight standard for business solution</p>
             <p><a href="#contact" >Let's make something special.</a></p> -->
             <h1>I occasionally take on freelance opportunities. </h1>
-            <p>Have an exciting project where you need some help? Send me over a mail, <a href="#contact" >and let's chat..</a></p>
+            <p>Have an exciting project where you need some help? Send me over a mail, <a href="#contact" > <span>and let's chat..</span></a></p>
             <button class="btn btn-primary"> <a href="{{url('download/mycv')}}" class="btn-a-tag">Download Resume</a></button>
             <!-- <a class="btn btn-secondary btn-a-tag" id="resumebtn" href="{{url('download/mycv')}}">Download Resume</a> -->
         </section>
@@ -437,14 +405,13 @@
             </div>
         </section>
         <footer>
-            <img class="footer-logo " src="/images/instagram.png " alt=" ">
+            <img class="footer-logo " src="/images/ak.jpg " alt=" ">
             <div class="footer-socials ">
-                <a href="# "></a><img src="/images/instagram.png " alt=" "></a>
-                <a href="# "></a><img src="/images/instagram.png " alt=" "></a>
+                <a href="https://www.linkedin.com/in/anam-khan-a13588178/" target=_blank><img src="images/linkedin.png" alt=""></a>
+                <a href="# "></a><img src="/images/twittersmall.png" alt=" "></a>
                 <a href="# "></a><img src="/images/facebook.png " alt=" "></a>
-                <a href="# " id="github "></a><img src="/images/linkedin.png " alt=" "></a>
             </div>
-            <div class="copyright ">CopyRight Anam 2021 </div>
+            <div class="copyright ">Copyright @Anam 2021 </div>
         </footer>
 
     </div>
